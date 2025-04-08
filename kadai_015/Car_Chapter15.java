@@ -5,7 +5,7 @@ public class Car_Chapter15 {
 	private int gear = 1;
 	private int speed = 10;
 	
-	public void geerChange(int afterGear) {
+	public void gearChange(int afterGear) {
 		int oldGear = gear;
 		if (afterGear > 0 && afterGear <= 5) {
 			gear = afterGear;
